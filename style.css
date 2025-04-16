@@ -1,14 +1,60 @@
 
 body {
+  margin: 0;
+  padding: 0;
   font-family: 'Georgia', serif;
-  background: #f7f2ed;
-  color: #333;
-  text-align: center;
-  padding: 20px;
+  background: url('background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #2e2e2e;
 }
-.gallery img {
-  width: 300px;
-  margin: 10px;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+.overlay {
+  background-color: rgba(255, 255, 255, 0.88);
+  padding: 2rem;
+  min-height: 100vh;
+  box-sizing: border-box;
+  text-align: center;
+}
+.logo {
+  max-width: 80px;
+  margin-bottom: 1rem;
+}
+header h1 {
+  font-size: 2.8rem;
+  color: #5e412f;
+  margin: 0;
+}
+header p {
+  font-size: 1.2rem;
+  color: #6e5845;
+}
+.about {
+  margin-top: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+.about p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.buttons {
+  margin-top: 2rem;
+}
+.buttons a {
+  display: inline-block;
+  margin: 0.5rem;
+  padding: 1rem 2rem;
+  background-color: #c08457;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+.buttons a:hover {
+  background-color: #a86b48;
 }
